@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Emmanuel Oga"]
   s.date = %q{2010-12-24}
-  s.description = %q{Faker refactored}
+  s.description = %q{FFaker refactored}
   s.email = %q{EmmanuelOga@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -54,7 +54,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{Faker, only cleaner and faster}
+  s.summary = %q{FFaker, only cleaner and faster}
   s.test_files = [
     "test/helper.rb",
      "test/test_address.rb",

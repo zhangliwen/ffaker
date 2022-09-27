@@ -1,4 +1,4 @@
-module Faker
+module FFaker
   module Name
     extend ModuleUtils
     extend self

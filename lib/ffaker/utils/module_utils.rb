@@ -1,9 +1,9 @@
 require 'ffaker/utils/array_utils'
 
-module Faker
+module FFaker
   module ModuleUtils
     def k(arg)
-      Faker::ArrayUtils.const_array(arg)
+      FFaker::ArrayUtils.const_array(arg)
     end
   end
 end

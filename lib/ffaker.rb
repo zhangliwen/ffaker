@@ -1,4 +1,4 @@
-module Faker
+module FFaker
   require 'ffaker/utils/module_utils'
 
   extend ModuleUtils

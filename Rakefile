@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "ffaker"
-    gem.summary = %Q{Faker, only cleaner and faster}
-    gem.description = %Q{Faker refactored}
+    gem.summary = %Q{FFaker, only cleaner and faster}
+    gem.description = %Q{FFaker refactored}
     gem.email = "EmmanuelOga@gmail.com"
     gem.homepage = "http://github.com/EmmanuelOga/ffaker"
     gem.authors = ["Emmanuel Oga"]

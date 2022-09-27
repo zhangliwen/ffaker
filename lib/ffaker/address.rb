@@ -1,10 +1,10 @@
-module Faker
+module FFaker
   module Address
     extend ModuleUtils
     extend self
 
     def zip_code
-      Faker.numerify ZIP_FORMATS.rand
+      FFaker.numerify ZIP_FORMATS.rand
     end
 
     def us_state
@@ -47,11 +47,11 @@ module Faker
       str = ( "#" * rand(3) ) << ('### %s' % street_name)
       str << ' ' << secondary_address  if include_secondary
 
-      Faker.numerify(str)
+      FFaker.numerify(str)
     end
 
     def secondary_address
-      Faker.numerify(SEC_ADDR.rand)
+      FFaker.numerify(SEC_ADDR.rand)
     end
 
     # UK Variants
@@ -64,7 +64,7 @@ module Faker
     end
 
     def uk_postcode
-      Faker.bothify(UK_POSTCODE.rand).upcase
+      FFaker.bothify(UK_POSTCODE.rand).upcase
     end
 
     ZIP_FORMATS = k ['#####', '#####-####']

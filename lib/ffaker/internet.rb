@@ -1,4 +1,4 @@
-module Faker
+module FFaker
   module Internet
     extend ModuleUtils
     extend self

@@ -1,4 +1,4 @@
-module Faker #:nodoc:
+module FFaker #:nodoc:
   module VERSION #:nodoc:
     MAJOR = 0
     MINOR = 3

@@ -1,9 +1,9 @@
 # encoding: utf-8
 require 'helper'
 
-class TestFakerNameCN < Test::Unit::TestCase
+class TestFFakerNameCN < Test::Unit::TestCase
   def setup
-    @tester = Faker::NameCN
+    @tester = FFaker::NameCN
   end
 
   def test_name
